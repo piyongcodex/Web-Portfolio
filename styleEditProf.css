@@ -1,0 +1,104 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(97, 95, 95);;
+    height: 100vh;
+
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    background-color: white;
+    border-radius: 20px;
+
+    position: absolute;
+    
+    display: grid;
+    grid-template-areas: "block1 block2"
+                         "block1 block3"
+                         "block1 block4"
+                         "block1 block5"
+                         "block1 block6";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.profileBox
+{
+    grid-area: block1;
+    text-align:  center;
+    padding: 40px 20px 0 20px;
+}
+.img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#upBtn
+{
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(12, 155, 211);
+    color: white;
+}
+#upBtn:hover
+{
+    font-weight: 900;
+    cursor: pointer;
+}
+#saveBtn
+{
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(8, 173, 16);
+    color: rgb(255, 255, 255);
+}
+#saveBtn:hover
+{
+    font-weight: 900;
+    cursor: pointer;
+}
+#backBtn
+{
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(8, 173, 16);
+    color: rgb(255, 255, 255);
+}
+#backBtn:hover
+{
+    font-weight: 900;
+    cursor: pointer;
+}
+.nameBox
+{
+    grid-area: block2;
+}
+.ageBox
+{
+    grid-area: block3;
+}
+.addBox
+{
+    grid-area: block4;
+}
+.conBox
+{
+    grid-area: block5;
+}
+.emailBox
+{
+    grid-area: block6;
+}
+.container>.nameBox>input,.container>.ageBox>input,.container>.conBox>input,.container>.emailBox>input
+{
+    font-size:15px; 
+}
