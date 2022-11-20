@@ -54,6 +54,7 @@ body
 .btn:hover,#dlCvBtn:hover
 {
     font-weight: 900;
+    cursor: pointer;
 }
 .user
 {
