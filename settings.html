@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="/settings.css" />
+  </head>
+  <body background="/imgs/wallpaper.jpg">
+    <div class="container">
+      <h2>Settings</h2>
+      <div class="userSettings">
+        <label>User ID#: 1</label><br />
+        <label>Username: </label> <input type="text" placeholder="piyopiyo" />
+
+        <br />
+        <h4>Change Password</h4>
+
+        <label>Type old password </label><br />
+        <input type="password" size="40px" /><br /><br /><br />
+
+        <label>Type new password</label><br />
+        <input type="password" size="40px" /><input
+          type="submit"
+          value="show"
+        /><br />
+
+        <label>Confirm new password</label><br />
+        <input type="password" size="40px" /><br />
+        <p>Must contain atleast 1 uppercase and 1 character</p>
+        <p id="passCheck">Password did not match</p>
+        <br /><br /><br />
+        <input class="btn" type="submit" value="Save" />
+        <a href="/index.html">
+          <input class="btn" type="submit" value="Cancel" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
