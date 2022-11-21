@@ -1,0 +1,65 @@
+body
+{
+    transition: .5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(97, 95, 95);;
+    height: auto;
+
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+.container
+{
+    background-color: white;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+
+    padding: 30px;
+}
+.textBox
+{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#logBtn
+{
+    padding: 7px 121px 7px 121px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(8, 173, 16);
+}
+hr
+{
+   color: #ccc;
+}
+#parent
+{
+    position: relative;
+}
+.lbl
+{
+    position: absolute;
+    top: -15px;
+    left: 45%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: white;
+    font-weight: 550;
+}
+i:hover
+{
+    color: orange;
+    cursor: pointer;
+}
+#logBtn:hover
+{
+   font-weight: 100;
+   cursor: pointer;
+}
